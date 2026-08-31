@@ -1914,6 +1914,987 @@
   };
 })();
 </script>
+
+
+
+<section class="talk-intro">
+  <div class="wrap" style="max-width:920px;margin:0 auto;padding:56px 28px 0;text-align:center">
+    <div style="font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#e0507a;margin-bottom:10px">延伸內容</div>
+    <h2 style="font-size:28px;font-weight:900;color:#241812;margin:0">文化大學分享 · 完整簡報三頁</h2>
+  </div>
+</section>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&display=swap');
+#wndSharePage{
+  --paper:#fbf7f1;
+  --paper-2:#f3eadd;
+  --card:#ffffff;
+  --ink:#241812;
+  --ink-soft:#6b5a4c;
+  --ink-faint:#a3907e;
+  --line:#e4d6c5;
+  --pink:#ff6b95;
+  --pink-deep:#e0507a;
+  --mint:#3f9d6e;
+  --mint-soft:#e3f3ea;
+  --gold:#e0982f;
+  --navy:#1c2a3a;
+  --shadow: 0 18px 44px rgba(36,24,18,0.10);
+}
+#wndSharePage *{box-sizing:border-box}
+#wndSharePage{margin:0;background:var(--paper);color:var(--ink);font-family:'Noto Sans TC','Bricolage Grotesque',sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased}
+#wndSharePage .lat{font-family:'Bricolage Grotesque','Noto Sans TC',sans-serif}
+#wndSharePage img, #wndSharePage svg{max-width:100%}
+#wndSharePage.wrap{max-width:920px;margin:0 auto;padding:0 28px}
+#wndSharePage h1, #wndSharePage h2, #wndSharePage h3{text-wrap:balance;margin:0}
+#wndSharePage p{margin:0}
+#wndSharePage .frame{position:relative}
+#wndSharePage .frame::before, #wndSharePage .frame::after, #wndSharePage .frame .c3, #wndSharePage .frame .c4{content:'';position:absolute;width:18px;height:18px;border-color:var(--pink);pointer-events:none}
+#wndSharePage .frame::before{top:-8px;left:-8px;border-top:3px solid var(--pink);border-left:3px solid var(--pink);border-top-left-radius:4px}
+#wndSharePage .frame::after{top:-8px;right:-8px;border-top:3px solid var(--pink);border-right:3px solid var(--pink);border-top-right-radius:4px}
+#wndSharePage .frame .c3{bottom:-8px;left:-8px;border-bottom:3px solid var(--pink);border-left:3px solid var(--pink);border-bottom-left-radius:4px}
+#wndSharePage .frame .c4{bottom:-8px;right:-8px;border-bottom:3px solid var(--pink);border-right:3px solid var(--pink);border-bottom-right-radius:4px}
+#wndSharePage .hero{padding:88px 0 64px;position:relative;overflow:hidden}
+#wndSharePage .hero-bg{position:absolute;inset:0;background:radial-gradient(560px 360px at 82% 8%, color-mix(in srgb, var(--pink) 16%, transparent), transparent 70%),radial-gradient(480px 320px at 6% 90%, color-mix(in srgb, var(--mint) 14%, transparent), transparent 70%);pointer-events:none}
+#wndSharePage .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--pink-deep);margin-bottom:20px}
+#wndSharePage .eyebrow::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--pink)}
+#wndSharePage .hero h1{font-family:'Noto Sans TC',sans-serif;font-weight:900;font-size:clamp(48px,9vw,88px);line-height:.98;letter-spacing:-.02em;margin-bottom:20px}
+#wndSharePage .hero h1 .accent{color:var(--pink)}
+#wndSharePage .hero-sub{font-size:19px;color:var(--ink-soft);max-width:560px;margin-bottom:28px}
+#wndSharePage .hero-byline{display:flex;align-items:center;gap:12px;font-size:14px;color:var(--ink-faint)}
+#wndSharePage .hero-byline .dot{width:5px;height:5px;border-radius:50%;background:var(--ink-faint)}
+#wndSharePage .hero-thesis{margin-top:44px;padding:26px 28px;background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);font-size:16px;color:var(--ink-soft);max-width:620px}
+#wndSharePage .hero-thesis strong{color:var(--ink);font-weight:700}
+#wndSharePage section{padding:64px 0}
+#wndSharePage .sec-head{margin-bottom:36px;max-width:640px}
+#wndSharePage .sec-eyebrow{font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--mint);margin-bottom:12px}
+#wndSharePage .sec-title{font-family:'Noto Sans TC',sans-serif;font-weight:900;font-size:clamp(28px,4.5vw,38px);letter-spacing:-.01em;margin-bottom:12px}
+#wndSharePage .sec-desc{color:var(--ink-soft);font-size:15.5px}
+#wndSharePage .method-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+#wndSharePage .method-card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:28px 24px;box-shadow:var(--shadow);position:relative}
+#wndSharePage .method-num{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:13px;color:var(--pink);letter-spacing:.05em;margin-bottom:14px}
+#wndSharePage .method-icon{font-size:30px;margin-bottom:14px;display:block}
+#wndSharePage .method-card h3{font-size:19px;font-weight:700;margin-bottom:10px}
+#wndSharePage .method-card p{font-size:14px;color:var(--ink-soft);line-height:1.75}
+#wndSharePage .method-card .ex{margin-top:14px;padding:10px 12px;background:var(--paper-2);border-radius:10px;font-size:13px;color:var(--ink-soft);font-family:'Bricolage Grotesque',monospace}
+#wndSharePage .tl{display:flex;flex-direction:column}
+#wndSharePage .tl-item{display:grid;grid-template-columns:56px 1fr;gap:20px;padding:20px 0;border-top:1px solid var(--line)}
+#wndSharePage .tl-item:last-child{border-bottom:1px solid var(--line)}
+#wndSharePage .tl-num{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:22px;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+#wndSharePage .tl-item.hl .tl-num{color:var(--pink)}
+#wndSharePage .tl-body h4{font-size:16.5px;font-weight:700;margin-bottom:6px}
+#wndSharePage .tl-body p{font-size:14px;color:var(--ink-soft)}
+#wndSharePage .tl-tag{display:inline-block;margin-top:8px;padding:3px 10px;background:var(--mint-soft);color:var(--mint);border-radius:99px;font-size:11.5px;font-weight:700}
+#wndSharePage .showcase-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px 32px;margin-top:8px}
+#wndSharePage .showcase-item{display:flex;flex-direction:column;gap:14px}
+#wndSharePage .showcase-cap{font-size:13.5px;color:var(--ink-soft)}
+#wndSharePage .showcase-cap strong{color:var(--ink);font-weight:700}
+#wndSharePage .mock{border-radius:16px;overflow:hidden;box-shadow:var(--shadow)}
+#wndSharePage .mock-site{background:linear-gradient(135deg,#12213a,#1b3550);padding:26px 22px;font-family:'Noto Sans TC',sans-serif}
+#wndSharePage .mock-site .tag{display:inline-block;font-size:10px;font-weight:800;color:#ffb98f;background:#ffffff1a;padding:3px 9px;border-radius:99px;margin-bottom:10px}
+#wndSharePage .mock-site h5{color:#fff;font-size:20px;font-weight:900;line-height:1.25;margin:0 0 8px}
+#wndSharePage .mock-site h5 span{color:#ff9f5a}
+#wndSharePage .mock-site .btn{display:inline-block;margin-top:10px;background:#ff9f3d;color:#241205;font-weight:800;font-size:11.5px;padding:7px 16px;border-radius:9px}
+#wndSharePage .mock-gpb{background:#0d1117;padding:18px;font-family:'Noto Sans TC',sans-serif}
+#wndSharePage .mock-gpb .hd{color:#e6edf3;font-size:12px;font-weight:800;margin-bottom:12px}
+#wndSharePage .mock-gpb .chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+#wndSharePage .mock-gpb .chip{font-size:10px;font-weight:700;padding:4px 10px;border-radius:99px;border:1px solid #30363d;color:#8b949e}
+#wndSharePage .mock-gpb .chip.on{background:#3a1a2e;border-color:#ff8fab;color:#ff9ebb}
+#wndSharePage .mock-gpb .prev{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:10px;font-size:10.5px;color:#8fe0a8;line-height:1.6}
+#wndSharePage .mock-gpb .prev b{color:#c9d1d9;font-weight:600;display:block;margin-bottom:4px}
+#wndSharePage .mock-hst{background:linear-gradient(135deg,#fdf6ec,#fbeee0);padding:22px;display:flex;gap:14px;justify-content:center}
+#wndSharePage .mock-hst .card{background:#fff;border-radius:14px;padding:14px 12px;text-align:center;box-shadow:0 6px 18px rgba(0,0,0,.08);flex:1;max-width:120px}
+#wndSharePage .mock-hst .face{width:46px;height:46px;border-radius:50%;margin:0 auto 8px;background:#f2c9a0;position:relative;overflow:hidden}
+#wndSharePage .mock-hst .face.f{background:#f7d7ae}
+#wndSharePage .mock-hst .hair{position:absolute;top:-4px;left:0;right:0;height:26px;background:#3a2a1f;border-radius:50% 50% 0 0}
+#wndSharePage .mock-hst .hair.f{background:#5a3620}
+#wndSharePage .mock-hst .lbl{font-size:10.5px;font-weight:800;color:#3a2a24}
+#wndSharePage .mock-hst .btn{margin-top:8px;display:inline-block;font-size:9.5px;font-weight:800;color:#fff;padding:5px 10px;border-radius:99px;background:linear-gradient(135deg,#6b8f9e,#4a6b7a)}
+#wndSharePage .mock-hst .card:last-child .btn{background:linear-gradient(135deg,#e08fa8,#c4607e)}
+#wndSharePage .mock-game{background:linear-gradient(160deg,#fdeef2 0%,#fbe4ec 60%,#f6d8e2 100%);padding:26px 22px;text-align:center;font-family:'Noto Sans TC',sans-serif;display:block;text-decoration:none;cursor:pointer;transition:transform .18s ease,box-shadow .18s ease}
+#wndSharePage .mock-game:hover{transform:translateY(-3px);box-shadow:0 22px 46px rgba(196,96,126,0.28)}
+#wndSharePage .mock-game .badge{font-size:9.5px;font-weight:800;letter-spacing:.08em;color:#c4708a;margin-bottom:10px}
+#wndSharePage .mock-game h5{font-size:19px;font-weight:900;color:#3a2a24;margin:0 0 6px}
+#wndSharePage .mock-game .sub{font-size:12px;color:#a9917f;margin-bottom:14px}
+#wndSharePage .mock-game .cta{display:inline-block;background:linear-gradient(135deg,#e08fa8,#c4607e);color:#fff;font-weight:800;font-size:11.5px;padding:8px 20px;border-radius:99px}
+#wndSharePage .gh-wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:32px;align-items:center}
+#wndSharePage .gh-tree{background:var(--navy);color:#dbe4ee;border-radius:16px;padding:22px 24px;font-family:'Bricolage Grotesque',monospace;font-size:13px;line-height:2;box-shadow:var(--shadow)}
+#wndSharePage .gh-tree .fold{color:#7fb0ff}
+#wndSharePage .gh-tree .file{color:#dbe4ee}
+#wndSharePage .gh-tree .cmt{color:#7a8aa0;margin-left:8px;font-family:'Noto Sans TC',sans-serif;font-size:11.5px}
+#wndSharePage .gh-note p{font-size:15px;color:var(--ink-soft);margin-bottom:14px}
+#wndSharePage .gh-note .repo-pill{display:inline-flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:99px;padding:8px 16px;font-family:'Bricolage Grotesque',monospace;font-size:13px;font-weight:700;color:var(--ink);box-shadow:var(--shadow)}
+#wndSharePage .gh-note .repo-pill::before{content:'';width:8px;height:8px;border-radius:50%;background:var(--mint)}
+#wndSharePage .take-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+#wndSharePage .take-card{padding:26px 22px;border-radius:18px;background:var(--paper-2)}
+#wndSharePage .take-card .n{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:32px;color:var(--pink);margin-bottom:10px;line-height:1}
+#wndSharePage .take-card h4{font-size:16.5px;font-weight:700;margin-bottom:8px}
+#wndSharePage .take-card p{font-size:13.5px;color:var(--ink-soft)}
+#wndSharePage .cta-band{background:var(--navy);border-radius:24px;padding:52px 40px;text-align:center;color:#f2ece4;position:relative;overflow:hidden}
+#wndSharePage .cta-band::before{content:'';position:absolute;inset:0;background:radial-gradient(420px 260px at 20% 0%, color-mix(in srgb, var(--pink) 30%, transparent), transparent 70%),radial-gradient(420px 260px at 90% 100%, color-mix(in srgb, var(--mint) 26%, transparent), transparent 70%)}
+#wndSharePage .cta-band > *{position:relative;z-index:1}
+#wndSharePage .cta-band h3{font-family:'Noto Sans TC',sans-serif;font-weight:900;font-size:clamp(26px,4vw,34px);margin-bottom:14px}
+#wndSharePage .cta-band p{color:#c7b6a5;font-size:15px;margin-bottom:26px}
+#wndSharePage .cta-link{display:inline-flex;align-items:center;gap:10px;background:var(--pink);color:#241205;font-weight:800;font-size:16px;padding:14px 30px;border-radius:99px;text-decoration:none;font-family:'Bricolage Grotesque',sans-serif}
+#wndSharePage footer.foot{padding:36px 0 60px;text-align:center;font-size:12.5px;color:var(--ink-faint)}
+@media(max-width:760px){
+#wndSharePage.wrap{padding:0 20px}
+#wndSharePage .method-grid, #wndSharePage .showcase-grid, #wndSharePage .take-grid{grid-template-columns:1fr}
+#wndSharePage .gh-wrap{grid-template-columns:1fr}
+#wndSharePage .hero{padding:64px 0 44px}
+}
+</style>
+
+<div id="wndSharePage" class="wrap">
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="eyebrow">文化大學分享 · 美業 AI 網頁實作課</div>
+    <h1>無<span class="accent">腦</span>大法</h1>
+    <p class="hero-sub">我不會寫程式，靠著「打字描述＋截圖回饋」這招，一個人做出一整個教學網站——從 Logo 產生器到能玩的小遊戲。</p>
+    <div class="hero-byline">
+      <span>走一日球迷 頻道主</span><span class="dot"></span><span>美業 AI 網頁實作課 主理人</span>
+    </div>
+    <div class="hero-thesis frame"><div class="c3"></div><div class="c4"></div>
+      今天想告訴大家：<strong>你不需要學會寫程式，只需要學會兩件事——把想法講清楚，還有把問題截圖出來。</strong>剩下的交給 AI。這頁記錄我實際怎麼做的，一步一步都是真的。
+    </div>
+  </header>
+
+  <section class="method">
+    <div class="sec-head">
+      <div class="sec-eyebrow">我的方法</div>
+      <h2 class="sec-title">無腦大法，三個步驟</h2>
+      <p class="sec-desc">聽起來很潮，其實就是這麼樸實：不用背指令、不用懂術語，重複做這三件事就好。</p>
+    </div>
+    <div class="method-grid">
+      <div class="method-card frame"><div class="c3"></div><div class="c4"></div>
+        <div class="method-num lat">STEP 01</div>
+        <span class="method-icon">&#x1F4AC;</span>
+        <h3>描述</h3>
+        <p>打字說你要什麼，用自己的話講，不用懂「按鈕」「區塊」這些術語。</p>
+        <div class="ex">「幫我在網頁上加一個按了會加分的按鈕」</div>
+      </div>
+      <div class="method-card frame"><div class="c3"></div><div class="c4"></div>
+        <div class="method-num lat">STEP 02</div>
+        <span class="method-icon">&#x1F4F8;</span>
+        <h3>截圖</h3>
+        <p>東西做出來後，哪裡怪怪的？直接截圖丟給 Claude，畫面會說話，不用解釋半天。</p>
+        <div class="ex">「這裡跑版了」+ 一張截圖 = 秒懂</div>
+      </div>
+      <div class="method-card frame"><div class="c3"></div><div class="c4"></div>
+        <div class="method-num lat">STEP 03</div>
+        <span class="method-icon">&#x1F501;</span>
+        <h3>迭代</h3>
+        <p>一輪一輪修，改壞了就退回上一步，看不懂的地方直接問「這是什麼意思」。</p>
+        <div class="ex">先求能動，再求好看，最後才求完美</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="timeline">
+    <div class="sec-head">
+      <div class="sec-eyebrow">實際案例</div>
+      <h2 class="sec-title">一個網站，怎麼從 0 長成這樣</h2>
+      <p class="sec-desc">這是我這個教學網站真實的開發順序，每一項都是「講需求 → AI 做 → 截圖回饋 → 再修」跑出來的。</p>
+    </div>
+    <div class="tl">
+      <div class="tl-item hl">
+        <div class="tl-num lat">00</div>
+        <div class="tl-body">
+          <h4>起點：一個 Hero 頁面</h4>
+          <p>標題 + 三個 QR code，讓學生掃碼下載 ChatGPT、Gemini、Manus，開始上課前的第一件事。</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-num lat">01</div>
+        <div class="tl-body">
+          <h4>LOGO 產生器</h4>
+          <p>品牌方向問卷，選一選就自動組出一段可以丟給 AI 畫圖的指令。</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-num lat">02</div>
+        <div class="tl-body">
+          <h4>WEBSITE LAB 精靈</h4>
+          <p>7 個步驟，把「我想做一個什麼樣的網站」拆成填空題，最後生成完整需求書。</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-num lat">03</div>
+        <div class="tl-body">
+          <h4>工作小幫手</h4>
+          <p>5 個工具：作品貼文、客人回覆、面試自介、履歷自傳、求職訊息——生成的不是死板模板，是「AI 指令」。</p>
+          <span class="tl-tag">學生實測回饋後重寫</span>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-num lat">04</div>
+        <div class="tl-body">
+          <h4>PICKU 展示區</h4>
+          <p>把我自己做的交友 APP 放上來當活教材，證明「這套方法做出來的東西真的能上線」。</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-num lat">05</div>
+        <div class="tl-body">
+          <h4>分鏡腳本產生器</h4>
+          <p>美妝短影音腳本工具：7 種產品類別、18 種開頭、13 種結尾，填一填就生成完整分鏡。</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-num lat">06</div>
+        <div class="tl-body">
+          <h4>遊戲指令產生器</h4>
+          <p>教學生怎麼寫一份「請 AI 幫我做遊戲」的完整指令——填空練習，練的是表達能力。</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-num lat">07</div>
+        <div class="tl-body">
+          <h4>髮型抽抽樂</h4>
+          <p>男女生各 20 種髮型隨機抽的小工具，用來練習「怎麼把規則講清楚」。</p>
+        </div>
+      </div>
+      <div class="tl-item hl">
+        <div class="tl-num lat">08</div>
+        <div class="tl-body">
+          <h4>真的做出一個能玩的遊戲</h4>
+          <p>把指令產生器寫好的指令直接貼給 Manus，做出「美業接接樂」，還嵌回網站給大家玩。</p>
+          <span class="tl-tag">從指令到真的能玩，全程沒寫一行程式</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="showcase">
+    <div class="sec-head">
+      <div class="sec-eyebrow">畫面長這樣</div>
+      <h2 class="sec-title">幾個實際做出來的畫面</h2>
+      <p class="sec-desc">現場會直接開網站給大家看，這裡先放幾個示意。</p>
+    </div>
+    <div class="showcase-grid">
+      <div class="showcase-item">
+        <div class="mock mock-site">
+          <span class="tag">美業 AI 網頁實作課</span>
+          <h5>從一個想法，<br>做出你的<span>品牌網站</span></h5>
+          <span class="btn">開始做我的 Logo ↓</span>
+        </div>
+        <p class="showcase-cap"><strong>首頁</strong> — 一句話破題，三個 QR code 直接掃碼裝 AI App。</p>
+      </div>
+      <div class="showcase-item">
+        <div class="mock mock-gpb">
+          <div class="hd">遊戲指令填空產生器</div>
+          <div class="chips">
+            <span class="chip on">掉接遊戲</span><span class="chip">翻牌配對</span><span class="chip on">教室展示</span>
+          </div>
+          <div class="prev"><b>即時預覽</b>請直接製作一個可以在手機與電腦瀏覽器遊玩的網頁小遊戲...</div>
+        </div>
+        <p class="showcase-cap"><strong>遊戲指令產生器</strong> — 填空選單，右邊即時組出完整指令。</p>
+      </div>
+      <div class="showcase-item">
+        <div class="mock mock-hst">
+          <div class="card"><div class="face"><div class="hair"></div></div><div class="lbl">男生</div><span class="btn">隨機換髮型</span></div>
+          <div class="card"><div class="face f"><div class="hair f"></div></div><div class="lbl">女生</div><span class="btn">隨機換髮型</span></div>
+        </div>
+        <p class="showcase-cap"><strong>髮型抽抽樂</strong> — 全部 SVG 插畫，不用等圖、沒有版權問題。</p>
+      </div>
+      <div class="showcase-item">
+        <a class="mock mock-game" href="https://beautygame-fryxbktr.manus.space" target="_blank" rel="noopener">
+          <div class="badge">SALON WAITING GAME · 點我試玩</div>
+          <h5>美業接接樂</h5>
+          <div class="sub">接住美麗，挑戰最高分！</div>
+          <span class="cta">開始挑戰 →</span>
+        </a>
+        <p class="showcase-cap"><strong>真的做出來的遊戲</strong> — 點卡片直接開新分頁試玩，從一份指令到能玩的成品。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="github">
+    <div class="sec-head">
+      <div class="sec-eyebrow">備份也是專業</div>
+      <h2 class="sec-title">順手備份上 GitHub</h2>
+      <p class="sec-desc">「我不會用 git」不是理由——這段也是直接請 Claude 做的。</p>
+    </div>
+    <div class="gh-wrap">
+      <div class="gh-tree">
+        <div><span class="fold">beautylab/</span></div>
+        <div>&nbsp;&nbsp;├── <span class="file">beautylab.html</span><span class="cmt">網站主檔</span></div>
+        <div>&nbsp;&nbsp;├── <span class="fold">deploy/</span><span class="cmt">部署腳本</span></div>
+        <div>&nbsp;&nbsp;├── <span class="fold">assets/hairstyles/</span><span class="cmt">40 張髮型參考圖</span></div>
+        <div>&nbsp;&nbsp;├── <span class="file">HANDOFF_CLAUDE.md</span><span class="cmt">交接文件</span></div>
+        <div>&nbsp;&nbsp;└── <span class="file">README.md</span><span class="cmt">說明文件</span></div>
+      </div>
+      <div class="gh-note">
+        <p>獨立、乾淨的 repo，跟我其他專案（上傳工具、LINE Bot、交友 APP）分開放，不會互相打架。</p>
+        <p>連 README、交接文件都是 AI 幫忙寫的——備份這件事，本身也不需要你自己會打指令。</p>
+        <div class="repo-pill lat">github.com/onedaybull/beautylab</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="takeaway">
+    <div class="sec-head">
+      <div class="sec-eyebrow">給你們的三件事</div>
+      <h2 class="sec-title">你們其實比我更有優勢</h2>
+    </div>
+    <div class="take-grid">
+      <div class="take-card">
+        <div class="n lat">01</div>
+        <h4>你的專業比程式更值錢</h4>
+        <p>剪髮手法、配色邏輯、客人心理，這些 AI 不懂，你懂。AI 負責技術，你負責判斷對不對。</p>
+      </div>
+      <div class="take-card">
+        <div class="n lat">02</div>
+        <h4>講不清楚沒關係，截圖最快</h4>
+        <p>別硬背術語卡住自己，把畫面丟出來就對了，AI 看得懂畫面。</p>
+      </div>
+      <div class="take-card">
+        <div class="n lat">03</div>
+        <h4>完成比完美重要</h4>
+        <p>先讓它能動，能動了才有東西可以修——空想一百分，不如先做出六十分。</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="cta-band">
+      <h3>整個網站，現場掃碼看</h3>
+      <p>今天講的每一個工具，都在這個網址裡，歡迎現場玩玩看。</p>
+      <a class="cta-link" href="https://beautylab.onedayfans.fans" target="_blank" rel="noopener">beautylab.onedayfans.fans ↗</a>
+    </div>
+  </section>
+
+  <footer class="foot">走一日球迷 · 美業 AI 網頁實作課 · 文化大學分享</footer>
+</div>
+<style>
+#trlToolsPage{
+  --paper:#fbf7f1;
+  --paper-2:#f3eadd;
+  --card:#ffffff;
+  --ink:#241812;
+  --ink-soft:#6b5a4c;
+  --ink-faint:#a3907e;
+  --line:#e4d6c5;
+  --pink:#ff6b95;
+  --pink-deep:#e0507a;
+  --mint:#3f9d6e;
+  --mint-soft:#e3f3ea;
+  --blue:#3f7ce0;
+  --blue-soft:#e6edfb;
+  --gold:#e0982f;
+  --gold-soft:#faf0dd;
+  --navy:#1c2a3a;
+  --teal:#2f9e9e;
+  --shadow: 0 18px 44px rgba(36,24,18,0.10);
+}
+#trlToolsPage *{box-sizing:border-box}
+#trlToolsPage{margin:0;background:var(--paper);color:var(--ink);font-family:'Noto Sans TC','Bricolage Grotesque',sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased}
+#trlToolsPage .lat{font-family:'Bricolage Grotesque','Noto Sans TC',sans-serif}
+#trlToolsPage.wrap{max-width:940px;margin:0 auto;padding:0 28px}
+#trlToolsPage h1, #trlToolsPage h2, #trlToolsPage h3{text-wrap:balance;margin:0}
+#trlToolsPage p{margin:0}
+#trlToolsPage .hero{padding:80px 0 56px;position:relative;overflow:hidden}
+#trlToolsPage .hero-bg{position:absolute;inset:0;background:radial-gradient(560px 340px at 85% 0%, color-mix(in srgb, var(--blue) 14%, transparent), transparent 70%),radial-gradient(480px 300px at 0% 100%, color-mix(in srgb, var(--pink) 14%, transparent), transparent 70%);pointer-events:none}
+#trlToolsPage .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--pink-deep);margin-bottom:18px}
+#trlToolsPage .eyebrow::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--pink)}
+#trlToolsPage .hero h1{font-weight:900;font-size:clamp(42px,8vw,72px);line-height:1.05;letter-spacing:-.02em;margin-bottom:18px}
+#trlToolsPage .hero h1 .accent{color:var(--pink)}
+#trlToolsPage .hero-sub{font-size:17.5px;color:var(--ink-soft);max-width:600px}
+#trlToolsPage .pipe{padding:20px 0 64px}
+#trlToolsPage .pipe-row{display:flex;align-items:stretch;gap:0;overflow-x:auto;padding-bottom:12px}
+#trlToolsPage .pipe-stage{flex:0 0 auto;display:flex;flex-direction:column;align-items:center;gap:10px;min-width:108px}
+#trlToolsPage .pipe-dot{width:64px;height:64px;border-radius:20px;display:flex;align-items:center;justify-content:center;font-size:26px;box-shadow:var(--shadow);flex-shrink:0}
+#trlToolsPage .pipe-label{font-size:12.5px;font-weight:800;color:var(--ink);text-align:center;white-space:nowrap}
+#trlToolsPage .pipe-sub{font-size:10.5px;color:var(--ink-faint);text-align:center;white-space:nowrap}
+#trlToolsPage .pipe-arrow{flex:0 0 auto;width:44px;display:flex;align-items:center;justify-content:center;color:var(--ink-faint);font-size:20px;align-self:center;margin-top:-30px}
+#trlToolsPage section{padding:0 0 64px}
+#trlToolsPage .sec-head{margin-bottom:32px;max-width:640px}
+#trlToolsPage .sec-eyebrow{font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--mint);margin-bottom:12px}
+#trlToolsPage .sec-title{font-weight:900;font-size:clamp(26px,4.2vw,34px);letter-spacing:-.01em;margin-bottom:12px}
+#trlToolsPage .sec-desc{color:var(--ink-soft);font-size:15px}
+#trlToolsPage .tool-grid{display:flex;flex-direction:column;gap:16px}
+#trlToolsPage .tool-card{display:grid;grid-template-columns:64px 1fr;gap:20px;padding:24px;background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow)}
+#trlToolsPage .tool-icon{width:64px;height:64px;border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:26px;flex-shrink:0}
+#trlToolsPage .tool-head{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+#trlToolsPage .tool-name{font-weight:900;font-size:18px}
+#trlToolsPage .tool-role{font-size:11.5px;font-weight:800;padding:3px 10px;border-radius:99px}
+#trlToolsPage .tool-desc{font-size:14.5px;color:var(--ink-soft);margin-bottom:10px}
+#trlToolsPage .tool-use{font-size:13.5px;color:var(--ink-soft);padding:10px 14px;background:var(--paper-2);border-radius:10px}
+#trlToolsPage .tool-use b{color:var(--ink);font-weight:700}
+#trlToolsPage .c-claude .tool-icon, #trlToolsPage .c-claude .tool-role{background:var(--pink);color:#2b0f18}
+#trlToolsPage .c-codex .tool-icon, #trlToolsPage .c-codex .tool-role{background:var(--mint);color:#0e2418}
+#trlToolsPage .c-manus .tool-icon, #trlToolsPage .c-manus .tool-role{background:var(--gold);color:#2e1e05}
+#trlToolsPage .c-github .tool-icon, #trlToolsPage .c-github .tool-role{background:var(--navy);color:#fff}
+#trlToolsPage .c-cf .tool-icon, #trlToolsPage .c-cf .tool-role{background:var(--blue);color:#fff}
+#trlToolsPage .c-rail .tool-icon, #trlToolsPage .c-rail .tool-role{background:#8a5fe0;color:#fff}
+#trlToolsPage .c-hermes .tool-icon, #trlToolsPage .c-hermes .tool-role{background:var(--teal);color:#04211f}
+#trlToolsPage .tool-note{margin-top:10px;font-size:12.5px;color:var(--gold);font-weight:700}
+#trlToolsPage .compass{display:flex;flex-direction:column;gap:10px}
+#trlToolsPage .compass-row{display:grid;grid-template-columns:1fr 32px 140px;align-items:center;gap:14px;padding:16px 18px;background:var(--card);border:1px solid var(--line);border-radius:14px}
+#trlToolsPage .compass-q{font-size:14.5px;color:var(--ink)}
+#trlToolsPage .compass-arrow{color:var(--ink-faint);text-align:center}
+#trlToolsPage .compass-a{font-size:13px;font-weight:800;text-align:center;padding:7px 12px;border-radius:99px;color:#fff}
+#trlToolsPage footer.foot{padding:36px 0 60px;text-align:center;font-size:12.5px;color:var(--ink-faint)}
+@media(max-width:760px){
+#trlToolsPage.wrap{padding:0 20px}
+#trlToolsPage .tool-card{grid-template-columns:1fr}
+#trlToolsPage .tool-icon{width:48px;height:48px;font-size:20px}
+#trlToolsPage .compass-row{grid-template-columns:1fr;text-align:left}
+#trlToolsPage .compass-arrow{display:none}
+}
+</style>
+
+<div id="trlToolsPage" class="wrap">
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="eyebrow">工具箱拆解</div>
+    <h1>從一句話，<br>到一個<span class="accent">網址</span></h1>
+    <p class="hero-sub">我常被問「你到底用了什麼？」——這頁把 Claude、Codex、Manus、GitHub、Cloudflare、Railway 六個工具的分工講清楚，每一個都對應我實際在做的事。</p>
+  </header>
+
+  <div class="pipe">
+    <div class="pipe-row">
+      <div class="pipe-stage">
+        <div class="pipe-dot" style="background:var(--pink)">&#x1F4AC;</div>
+        <div class="pipe-label">一句話需求</div>
+        <div class="pipe-sub lat">idea</div>
+      </div>
+      <div class="pipe-arrow">→</div>
+      <div class="pipe-stage">
+        <div class="pipe-dot" style="background:var(--pink)">C</div>
+        <div class="pipe-label">Claude</div>
+        <div class="pipe-sub">改 / 修 / 迭代</div>
+      </div>
+      <div class="pipe-arrow">→</div>
+      <div class="pipe-stage">
+        <div class="pipe-dot" style="background:var(--mint)">X</div>
+        <div class="pipe-label">Codex / Manus</div>
+        <div class="pipe-sub">一次生一大塊</div>
+      </div>
+      <div class="pipe-arrow">/</div>
+      <div class="pipe-stage">
+        <div class="pipe-dot" style="background:var(--teal)">H</div>
+        <div class="pipe-label">Hermes</div>
+        <div class="pipe-sub">記憶 / 自動排程</div>
+      </div>
+      <div class="pipe-arrow">→</div>
+      <div class="pipe-stage">
+        <div class="pipe-dot" style="background:var(--navy);color:#fff">&#x25C9;</div>
+        <div class="pipe-label">GitHub</div>
+        <div class="pipe-sub">備份 / 存檔</div>
+      </div>
+      <div class="pipe-arrow">→</div>
+      <div class="pipe-stage">
+        <div class="pipe-dot" style="background:var(--blue);color:#fff">&#x2601;</div>
+        <div class="pipe-label">Cloudflare</div>
+        <div class="pipe-sub">網站上線</div>
+      </div>
+      <div class="pipe-arrow">/</div>
+      <div class="pipe-stage">
+        <div class="pipe-dot" style="background:#8a5fe0;color:#fff">&#x26A1;</div>
+        <div class="pipe-label">Railway</div>
+        <div class="pipe-sub">服務一直跑</div>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="sec-head">
+      <div class="sec-eyebrow">六個角色</div>
+      <h2 class="sec-title">每個工具負責什麼</h2>
+      <p class="sec-desc">不是每次都全部用到，看需求而定——但這是我最常見的分工方式。</p>
+    </div>
+    <div class="tool-grid">
+      <div class="tool-card c-claude">
+        <div class="tool-icon">&#x1F4AC;</div>
+        <div>
+          <div class="tool-head"><span class="tool-name">Claude</span><span class="tool-role">對話式助手</span></div>
+          <p class="tool-desc">最適合「一直改」的工作——寫程式、抓 bug、規劃功能、寫文件，甚至幫你上傳 GitHub、部署上線。你截圖給它看，它自己判斷問題在哪。</p>
+          <div class="tool-use">今天分享的<b>「無腦大法」</b>整套流程，還有 beautylab 網站上所有新工具（分鏡腳本產生器、遊戲指令產生器、髮型抽抽樂），都是這樣一句一句改出來的。</div>
+        </div>
+      </div>
+      <div class="tool-card c-codex">
+        <div class="tool-icon">&#x1F9E9;</div>
+        <div>
+          <div class="tool-head"><span class="tool-name">Codex</span><span class="tool-role">一次生一大塊</span></div>
+          <p class="tool-desc">OpenAI 的程式 agent，適合「從零一次做出一整塊」——給它完整需求，它直接產出可運作的檔案，比較少來回對話。</p>
+          <div class="tool-use">beautylab 網站最早的骨架就是 Codex 生的，後續 Claude 接手做細部迭代，兩邊用一份 <b>HANDOFF_CLAUDE.md</b> 交接文件互相交棒。</div>
+        </div>
+      </div>
+      <div class="tool-card c-manus">
+        <div class="tool-icon">&#x1F916;</div>
+        <div>
+          <div class="tool-head"><span class="tool-name">Manus</span><span class="tool-role">需求書 → 成品</span></div>
+          <p class="tool-desc">丟一份完整的文字需求書，它直接生出一個能操作、能部署的網頁或小遊戲，中間過程不太需要你插手。</p>
+          <div class="tool-use">今天秀的<b>「美業接接樂」</b>小遊戲，就是把「遊戲指令產生器」填空產出的指令直接貼給 Manus，原封不動生出來的。</div>
+          <div class="tool-note">💡 特別適合學生：免費帳號每天有 300 點，做一個網頁綽綽有餘，可以放心練習不怕燒錢。</div>
+        </div>
+      </div>
+      <div class="tool-card c-hermes">
+        <div class="tool-icon">&#x1F4E1;</div>
+        <div>
+          <div class="tool-head"><span class="tool-name">Hermes</span><span class="tool-role">多平台自動化代理</span></div>
+          <p class="tool-desc">Nous Research 出的開源 AI agent，特色是「記得住脈絡＋能排程」，還能接進 Telegram、Discord、LINE、Email 這些通訊平台，自動幫你發報告、做備份這類背景任務。</p>
+          <div class="tool-use">跟 Claude / Codex / Manus 的差別：那三個是「你講一次，它做一次」；Hermes 更像<b>「交代它長期記住、定期自動執行」</b>，適合已經上手、想把重複性工作自動化的人。</div>
+        </div>
+      </div>
+      <div class="tool-card c-github">
+        <div class="tool-icon">&#x25C9;</div>
+        <div>
+          <div class="tool-head"><span class="tool-name">GitHub</span><span class="tool-role">備份 / 版本紀錄</span></div>
+          <p class="tool-desc">程式碼的雲端備份，同時記錄每一次修改的歷史。改壞了可以退回去，換電腦、換工具也不會不見。</p>
+          <div class="tool-use">beautylab 的完整備份、README、交接文件，都是<b>直接請 Claude 建 repo、上傳、寫文件</b>，我自己沒打過一行 git 指令。</div>
+        </div>
+      </div>
+      <div class="tool-card c-cf">
+        <div class="tool-icon">&#x2601;</div>
+        <div>
+          <div class="tool-head"><span class="tool-name">Cloudflare</span><span class="tool-role">網站上線</span></div>
+          <p class="tool-desc">把做好的網頁「發布」成一個真正能瀏覽的網址。免費、速度快，適合不需要背景一直運作的網站、小工具。</p>
+          <div class="tool-use">beautylab.onedayfans.fans 就是部署在 <b>Cloudflare Workers</b> 上，改完程式碼跑一個部署指令，網址馬上更新。</div>
+        </div>
+      </div>
+      <div class="tool-card c-rail">
+        <div class="tool-icon">&#x26A1;</div>
+        <div>
+          <div class="tool-head"><span class="tool-name">Railway</span><span class="tool-role">服務一直跑</span></div>
+          <p class="tool-desc">適合需要「一直開著」的服務——伺服器要在背景持續運作、隨時接收訊息或排程執行的東西。</p>
+          <div class="tool-use">LINE Bot、自動上傳排程、BiteBall App 後端，這些需要 24 小時待命的服務，都部署在 <b>Railway</b>。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="sec-eyebrow">怎麼選</div>
+      <h2 class="sec-title">遇到狀況，該找誰</h2>
+    </div>
+    <div class="compass">
+      <div class="compass-row">
+        <div class="compass-q">只是要改網頁上一個小地方</div>
+        <div class="compass-arrow">→</div>
+        <div class="compass-a" style="background:var(--pink)">Claude</div>
+      </div>
+      <div class="compass-row">
+        <div class="compass-q">要從零生出一整個網站或 App</div>
+        <div class="compass-arrow">→</div>
+        <div class="compass-a" style="background:var(--mint)">Codex / Manus</div>
+      </div>
+      <div class="compass-row">
+        <div class="compass-q">要它一直記得、定期自動執行任務</div>
+        <div class="compass-arrow">→</div>
+        <div class="compass-a" style="background:var(--teal);color:#04211f">Hermes</div>
+      </div>
+      <div class="compass-row">
+        <div class="compass-q">東西不見了、想找回舊版本</div>
+        <div class="compass-arrow">→</div>
+        <div class="compass-a" style="background:var(--navy)">GitHub</div>
+      </div>
+      <div class="compass-row">
+        <div class="compass-q">網站只是要「看得到」，沒有背景服務</div>
+        <div class="compass-arrow">→</div>
+        <div class="compass-a" style="background:var(--blue)">Cloudflare</div>
+      </div>
+      <div class="compass-row">
+        <div class="compass-q">需要「一直運作」的東西（Bot、排程、API）</div>
+        <div class="compass-arrow">→</div>
+        <div class="compass-a" style="background:#8a5fe0">Railway</div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">走一日球迷 · 美業 AI 網頁實作課 · 文化大學分享</footer>
+</div>
+<style>
+#nodDetourPage{
+  --paper:#fbf7f1; --paper-2:#f3eadd; --card:#ffffff;
+  --ink:#241812; --ink-soft:#6b5a4c; --ink-faint:#a3907e; --line:#e4d6c5;
+  --pink:#ff6b95; --pink-deep:#e0507a;
+  --mint:#3f9d6e; --mint-soft:#e3f3ea;
+  --red:#d1453b; --red-soft:#fbe9e7;
+  --blue:#3f7ce0;
+  --navy:#1c2a3a;
+  --shadow: 0 18px 44px rgba(36,24,18,0.10);
+}
+#nodDetourPage *{box-sizing:border-box}
+#nodDetourPage{margin:0;background:var(--paper);color:var(--ink);font-family:'Noto Sans TC','Bricolage Grotesque',sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased}
+#nodDetourPage .lat{font-family:'Bricolage Grotesque','Noto Sans TC',sans-serif}
+#nodDetourPage.wrap{max-width:900px;margin:0 auto;padding:0 28px}
+#nodDetourPage h1, #nodDetourPage h2, #nodDetourPage h3{text-wrap:balance;margin:0}
+#nodDetourPage p{margin:0}
+#nodDetourPage .hero{padding:76px 0 52px;position:relative;overflow:hidden}
+#nodDetourPage .hero-bg{position:absolute;inset:0;background:radial-gradient(560px 340px at 88% 4%, color-mix(in srgb, var(--mint) 15%, transparent), transparent 70%),radial-gradient(480px 300px at 2% 96%, color-mix(in srgb, var(--pink) 14%, transparent), transparent 70%);pointer-events:none}
+#nodDetourPage .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--mint);margin-bottom:18px}
+#nodDetourPage .eyebrow::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--mint)}
+#nodDetourPage .hero h1{font-weight:900;font-size:clamp(42px,8vw,72px);line-height:1.05;letter-spacing:-.02em;margin-bottom:18px}
+#nodDetourPage .hero h1 .accent{color:var(--pink)}
+#nodDetourPage .hero-sub{font-size:17.5px;color:var(--ink-soft);max-width:600px}
+#nodDetourPage section{padding:0 0 60px}
+#nodDetourPage .sec-head{margin-bottom:28px;max-width:640px}
+#nodDetourPage .sec-eyebrow{font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--pink-deep);margin-bottom:12px}
+#nodDetourPage .sec-title{font-weight:900;font-size:clamp(26px,4.2vw,34px);letter-spacing:-.01em;margin-bottom:12px}
+#nodDetourPage .sec-desc{color:var(--ink-soft);font-size:15px}
+#nodDetourPage .compare{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+#nodDetourPage .compare-card{border-radius:18px;padding:22px 24px;box-shadow:var(--shadow)}
+#nodDetourPage .compare-card.bad{background:var(--red-soft);border:1px solid color-mix(in srgb, var(--red) 30%, transparent)}
+#nodDetourPage .compare-card.good{background:var(--mint-soft);border:1px solid color-mix(in srgb, var(--mint) 30%, transparent)}
+#nodDetourPage .compare-tag{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:800;margin-bottom:14px}
+#nodDetourPage .compare-tag.bad{color:var(--red)}
+#nodDetourPage .compare-tag.good{color:var(--mint)}
+#nodDetourPage .compare-text{font-size:14.5px;color:var(--ink);line-height:1.75;font-family:'Bricolage Grotesque','Noto Sans TC',monospace}
+#nodDetourPage .compare-note{margin-top:12px;font-size:12.5px;color:var(--ink-soft)}
+#nodDetourPage .formula{display:flex;flex-direction:column;gap:14px}
+#nodDetourPage .formula-row{display:grid;grid-template-columns:130px 1fr;gap:18px;padding:18px 0;border-top:1px solid var(--line)}
+#nodDetourPage .formula-row:last-child{border-bottom:1px solid var(--line)}
+#nodDetourPage .formula-key{font-weight:800;font-size:15px;color:var(--pink-deep)}
+#nodDetourPage .formula-val p{font-size:14.5px;color:var(--ink-soft);margin-bottom:6px}
+#nodDetourPage .formula-val .eg{font-size:13px;color:var(--ink-faint);font-style:italic}
+#nodDetourPage .steps{display:flex;flex-direction:column;gap:0}
+#nodDetourPage .step{display:grid;grid-template-columns:40px 1fr;gap:18px;padding:18px 0;border-top:1px solid var(--line)}
+#nodDetourPage .step:last-child{border-bottom:1px solid var(--line)}
+#nodDetourPage .step-n{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:19px;color:var(--ink-faint)}
+#nodDetourPage .step h4{font-size:15.5px;font-weight:700;margin-bottom:5px}
+#nodDetourPage .step p{font-size:14px;color:var(--ink-soft)}
+#nodDetourPage .pit-grid{display:flex;flex-direction:column;gap:12px}
+#nodDetourPage .pit{display:grid;grid-template-columns:34px 1fr;gap:14px;padding:16px 18px;background:var(--card);border:1px solid var(--line);border-radius:14px}
+#nodDetourPage .pit-icon{font-size:20px}
+#nodDetourPage .pit h4{font-size:14.5px;font-weight:700;margin-bottom:4px;color:var(--red)}
+#nodDetourPage .pit p{font-size:13.5px;color:var(--ink-soft)}
+#nodDetourPage .pit .fix{margin-top:6px;font-size:13px;color:var(--mint);font-weight:700}
+#nodDetourPage .tmpl-box{background:var(--navy);color:#e8f0fb;border-radius:18px;padding:26px 28px;box-shadow:var(--shadow);position:relative}
+#nodDetourPage .tmpl-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+#nodDetourPage .tmpl-label{font-size:11.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#8fe0a8}
+#nodDetourPage .tmpl-text{font-family:'Bricolage Grotesque',monospace;font-size:14.5px;line-height:2;color:#dbe4ee;white-space:pre-wrap}
+#nodDetourPage .tmpl-text b{color:#ff9ebb;font-weight:700}
+#nodDetourPage footer.foot{padding:36px 0 60px;text-align:center;font-size:12.5px;color:var(--ink-faint)}
+@media(max-width:720px){
+#nodDetourPage.wrap{padding:0 20px}
+#nodDetourPage .compare{grid-template-columns:1fr}
+#nodDetourPage .formula-row{grid-template-columns:1fr}
+#nodDetourPage .hero{padding:56px 0 40px}
+}
+</style>
+
+<div id="nodDetourPage" class="wrap">
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="eyebrow">指令教學</div>
+    <h1>少走<span class="accent">冤枉路</span></h1>
+    <p class="hero-sub">很多人做網頁卡關，不是 AI 不夠強，是第一句話講得太模糊，來回繞了十幾輪還在原地打轉。這頁教你一次講清楚，直接抄公式、抄範本就能開始。</p>
+  </header>
+
+  <section>
+    <div class="sec-head">
+      <div class="sec-eyebrow">先看差在哪</div>
+      <h2 class="sec-title">同一個需求，兩種問法</h2>
+    </div>
+    <div class="compare">
+      <div class="compare-card bad">
+        <div class="compare-tag bad">&#x274C; 容易繞路</div>
+        <div class="compare-text">「幫我做一個網頁，弄得好看一點。」</div>
+        <p class="compare-note">AI 只能瞎猜——好看是什麼風格？網頁要放什麼？給誰看？結果做出來大機率不是你要的，還要再花好幾輪解釋。</p>
+      </div>
+      <div class="compare-card good">
+        <div class="compare-tag good">&#x2705; 直接命中</div>
+        <div class="compare-text">「我是美甲師，想做一個放作品照片的網頁給客人看，風格要粉色、簡約，先做出一頁能放 6 張照片的版面就好。」</div>
+        <p class="compare-note">身份、對象、範圍、風格、驗收標準全部講清楚，AI 第一次做出來就有 8 成準。</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="sec-eyebrow">抄這個公式</div>
+      <h2 class="sec-title">一句話講清楚需求的 5 個要素</h2>
+    </div>
+    <div class="formula">
+      <div class="formula-row">
+        <div class="formula-key">身份</div>
+        <div class="formula-val"><p>你是誰、做什麼的——AI 才知道用什麼語氣、放什麼內容。</p><div class="eg">例：「我是美髮設計師」</div></div>
+      </div>
+      <div class="formula-row">
+        <div class="formula-key">對象</div>
+        <div class="formula-val"><p>網頁做給誰看——客人？學生？老闆？決定了整個調性。</p><div class="eg">例：「給等待中的客人看」</div></div>
+      </div>
+      <div class="formula-row">
+        <div class="formula-key">範圍</div>
+        <div class="formula-val"><p>這一輪只講一個功能，不要一次列十個要求。</p><div class="eg">例：「先只做作品集頁面就好，其他之後再說」</div></div>
+      </div>
+      <div class="formula-row">
+        <div class="formula-key">風格</div>
+        <div class="formula-val"><p>有具體形容詞或參考對象最好，比「好看」更好用。</p><div class="eg">例：「粉色系、簡約、像 IG 版面那種感覺」</div></div>
+      </div>
+      <div class="formula-row">
+        <div class="formula-key">驗收</div>
+        <div class="formula-val"><p>講清楚「做完你要看到什麼」，做完了才知道算不算過關。</p><div class="eg">例：「能放 6 張照片、手機上看不跑版」</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="sec-eyebrow">直接照抄</div>
+      <h2 class="sec-title">第一句話範本</h2>
+      <p class="sec-desc">複製下面這段，把方括號換成你的內容，貼給 Claude / Manus 當開場白。</p>
+    </div>
+    <div class="tmpl-box">
+      <div class="tmpl-head"><span class="tmpl-label lat">Copy This</span></div>
+      <div class="tmpl-text">我想做一個<b>［你的身份／行業］</b>的網頁，主要是要給<b>［誰看］</b>。
+第一步我只要：<b>［一個功能，例如：一個放作品照片的頁面］</b>。
+風格希望是：<b>［形容詞或參考對象］</b>。
+先不用一次做到最漂亮，能動就好，我看了會再跟你說要改哪裡。</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="sec-eyebrow">開始之後</div>
+      <h2 class="sec-title">第一次做網頁，照這個順序走</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-n lat">1</div>
+        <div><h4>先講一個功能，不要講十個</h4><p>用上面的範本開場，範圍越小，第一次做出來越準。</p></div>
+      </div>
+      <div class="step">
+        <div class="step-n lat">2</div>
+        <div><h4>看結果，只挑「最大的問題」講</h4><p>不要每個小地方同時提，先解決最影響使用的那一個。</p></div>
+      </div>
+      <div class="step">
+        <div class="step-n lat">3</div>
+        <div><h4>一輪只改一個問題</h4><p>改完再看一次，確認真的解決了再往下一個問題走。</p></div>
+      </div>
+      <div class="step">
+        <div class="step-n lat">4</div>
+        <div><h4>覺得堪用了，先存檔／部署</h4><p>不要卡在「還要更好」，先讓它能被看到，之後隨時可以再改。</p></div>
+      </div>
+      <div class="step">
+        <div class="step-n lat">5</div>
+        <div><h4>想加新功能，開新的一輪再講</h4><p>不要把新功能塞進舊的那句話裡，一次一件事最不容易搞混。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="sec-eyebrow">避開這些</div>
+      <h2 class="sec-title">最容易繞路的 5 個地雷</h2>
+    </div>
+    <div class="pit-grid">
+      <div class="pit">
+        <div class="pit-icon">&#x1F4A3;</div>
+        <div><h4>一次講太多功能</h4><p>Logo、預約表單、作品集、留言板全部塞在同一句話，AI 會抓不到重點，做出來四不像。</p><div class="fix">改成：一次只講一個，做完再講下一個</div></div>
+      </div>
+      <div class="pit">
+        <div class="pit-icon">&#x1F4A3;</div>
+        <div><h4>只說「弄得更好看」</h4><p>沒有具體標準，AI 只能瞎猜，改來改去都不是你要的那種好看。</p><div class="fix">改成：指出具體位置，「這個按鈕在手機上太小了」</div></div>
+      </div>
+      <div class="pit">
+        <div class="pit-icon">&#x1F4A3;</div>
+        <div><h4>改壞了硬凹著繼續改</h4><p>越改越亂，最後自己也搞不清楚哪裡出問題。</p><div class="fix">改成：直接說「退回上一步」，重新來一次更快</div></div>
+      </div>
+      <div class="pit">
+        <div class="pit-icon">&#x1F4A3;</div>
+        <div><h4>看不懂術語硬猜</h4><p>猜錯方向，繞了一大圈才發現理解錯了。</p><div class="fix">改成：直接問「這是什麼意思」，AI 很樂意解釋</div></div>
+      </div>
+      <div class="pit">
+        <div class="pit-icon">&#x1F4A3;</div>
+        <div><h4>堅持一次做到完美才給人看</h4><p>卡在細節裡出不來，永遠沒有「完成」的一天。</p><div class="fix">改成：先求能動，能動了才有東西可以修</div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">走一日球迷 · 美業 AI 網頁實作課 · 文化大學分享</footer>
+</div>
+
+<style>
+#pmdModelPage{
+  --paper:#fbf7f1; --paper-2:#f3eadd; --card:#ffffff;
+  --ink:#241812; --ink-soft:#6b5a4c; --ink-faint:#a3907e; --line:#e4d6c5;
+  --pink:#ff6b95; --pink-deep:#e0507a;
+  --mint:#3f9d6e; --mint-soft:#e3f3ea;
+  --blue:#3f7ce0; --blue-soft:#e6edfb;
+  --gold:#e0982f; --gold-soft:#faf0dd;
+  --navy:#1c2a3a;
+  --shadow: 0 18px 44px rgba(36,24,18,0.10);
+}
+#pmdModelPage *{box-sizing:border-box}
+#pmdModelPage{margin:0;background:var(--paper);color:var(--ink);font-family:'Noto Sans TC','Bricolage Grotesque',sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased}
+#pmdModelPage .lat{font-family:'Bricolage Grotesque','Noto Sans TC',sans-serif}
+#pmdModelPage.wrap{max-width:940px;margin:0 auto;padding:0 28px}
+#pmdModelPage h1, #pmdModelPage h2, #pmdModelPage h3{text-wrap:balance;margin:0}
+#pmdModelPage p{margin:0}
+#pmdModelPage .hero{padding:76px 0 52px;position:relative;overflow:hidden}
+#pmdModelPage .hero-bg{position:absolute;inset:0;background:radial-gradient(560px 340px at 88% 4%, color-mix(in srgb, var(--blue) 15%, transparent), transparent 70%),radial-gradient(480px 300px at 2% 96%, color-mix(in srgb, var(--pink) 14%, transparent), transparent 70%);pointer-events:none}
+#pmdModelPage .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);margin-bottom:18px}
+#pmdModelPage .eyebrow::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--blue)}
+#pmdModelPage .hero h1{font-weight:900;font-size:clamp(40px,7.5vw,64px);line-height:1.08;letter-spacing:-.02em;margin-bottom:18px}
+#pmdModelPage .hero h1 .accent{color:var(--pink)}
+#pmdModelPage .hero-sub{font-size:17px;color:var(--ink-soft);max-width:600px}
+#pmdModelPage section{padding:0 0 56px}
+#pmdModelPage .sec-head{margin-bottom:26px;max-width:640px}
+#pmdModelPage .sec-eyebrow{font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--pink-deep);margin-bottom:10px}
+#pmdModelPage .sec-title{font-weight:900;font-size:clamp(24px,4vw,30px);letter-spacing:-.01em;margin-bottom:10px}
+#pmdModelPage .sec-desc{color:var(--ink-soft);font-size:14.5px}
+#pmdModelPage .tier-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+#pmdModelPage .tier-card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px 20px;box-shadow:var(--shadow)}
+#pmdModelPage .tier-badge{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.06em;padding:3px 10px;border-radius:99px;margin-bottom:12px}
+#pmdModelPage .tier-name{font-weight:900;font-size:19px;margin-bottom:4px}
+#pmdModelPage .tier-id{font-size:11.5px;color:var(--ink-faint);margin-bottom:12px;word-break:break-all}
+#pmdModelPage .tier-desc{font-size:13.5px;color:var(--ink-soft);margin-bottom:10px}
+#pmdModelPage .tier-price{font-size:12px;color:var(--ink-faint);border-top:1px solid var(--line);padding-top:10px}
+#pmdModelPage .t-flagship .tier-badge{background:var(--pink);color:#2b0f18}
+#pmdModelPage .t-balance .tier-badge{background:var(--mint);color:#0e2418}
+#pmdModelPage .t-econ .tier-badge{background:var(--gold);color:#2e1e05}
+#pmdModelPage .t-old .tier-badge{background:var(--ink-faint);color:#fff}
+#pmdModelPage .brand-row{display:flex;align-items:center;gap:10px;margin:36px 0 18px}
+#pmdModelPage .brand-row .dot{width:8px;height:8px;border-radius:50%}
+#pmdModelPage .brand-row h3{font-size:15px;font-weight:800;letter-spacing:.04em}
+#pmdModelPage .pair-table{width:100%;border-collapse:collapse;overflow-x:auto;display:block}
+#pmdModelPage .pair-table thead th{text-align:left;font-size:11.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:10px 14px;border-bottom:2px solid var(--line)}
+#pmdModelPage .pair-table td{padding:14px;border-bottom:1px solid var(--line);font-size:14px;vertical-align:top}
+#pmdModelPage .pair-table td:first-child{font-weight:700;color:var(--ink)}
+#pmdModelPage .pair-pill{display:inline-block;padding:4px 12px;border-radius:99px;font-size:12.5px;font-weight:700}
+#pmdModelPage .callout{background:var(--gold-soft);border:1px solid color-mix(in srgb, var(--gold) 35%, transparent);border-radius:16px;padding:20px 22px;display:flex;gap:14px;align-items:flex-start}
+#pmdModelPage .callout .ic{font-size:22px;flex-shrink:0}
+#pmdModelPage .callout p{font-size:14px;color:var(--ink-soft);line-height:1.75}
+#pmdModelPage .callout strong{color:var(--ink)}
+#pmdModelPage .rot{display:flex;flex-direction:column;gap:10px}
+#pmdModelPage .rot-row{display:grid;grid-template-columns:1fr 32px 150px;align-items:center;gap:14px;padding:14px 18px;background:var(--card);border:1px solid var(--line);border-radius:14px}
+#pmdModelPage .rot-q{font-size:14px;color:var(--ink)}
+#pmdModelPage .rot-arrow{color:var(--ink-faint);text-align:center}
+#pmdModelPage .rot-a{font-size:12.5px;font-weight:800;text-align:center;padding:6px 10px;border-radius:99px;color:#fff}
+#pmdModelPage footer.foot{padding:30px 0 56px;text-align:center;font-size:12.5px;color:var(--ink-faint)}
+@media(max-width:720px){
+#pmdModelPage.wrap{padding:0 20px}
+#pmdModelPage .tier-grid{grid-template-columns:1fr}
+#pmdModelPage .pair-table{overflow-x:auto}
+#pmdModelPage .rot-row{grid-template-columns:1fr;text-align:left}
+#pmdModelPage .rot-arrow{display:none}
+}
+</style>
+
+<div id="pmdModelPage" class="wrap">
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="eyebrow">模型速查</div>
+    <h1>選對<span class="accent">模型</span>，<br>比選對工具更重要</h1>
+    <p class="hero-sub">Codex 和 Claude 現在都分好幾個等級，選錯了不是做不出來，是白花時間、白花錢。這頁把兩邊的分級整理在一起。</p>
+  </header>
+
+  <section>
+    <div class="brand-row"><span class="dot" style="background:var(--mint)"></span><h3 class="lat">CODEX · GPT-5.6 系列</h3></div>
+    <div class="tier-grid">
+      <div class="tier-card t-flagship">
+        <span class="tier-badge">旗艦</span>
+        <div class="tier-name">Sol</div>
+        <div class="tier-id lat">gpt-5.6-sol</div>
+        <p class="tier-desc">複雜、專業級工作的旗艦模型。跑一整個網站架構、處理棘手的邏輯問題，選這個。</p>
+        <div class="tier-price">適合：一次生一大塊、架構複雜的任務</div>
+      </div>
+      <div class="tier-card t-balance">
+        <span class="tier-badge">平衡</span>
+        <div class="tier-name">Terra</div>
+        <div class="tier-id lat">gpt-5.6-terra</div>
+        <p class="tier-desc">平衡智能與成本，日常開發工作的預設選擇。不確定要選哪個，先選這個。</p>
+        <div class="tier-price">適合：一般網頁功能、日常修改</div>
+      </div>
+      <div class="tier-card t-econ">
+        <span class="tier-badge">經濟</span>
+        <div class="tier-name">Luna</div>
+        <div class="tier-id lat">gpt-5.6-luna</div>
+        <p class="tier-desc">針對成本敏感工作負載最佳化。簡單、重複性高的小任務，用這個最划算。</p>
+        <div class="tier-price">適合：大量重複、格式轉換、簡單問答</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="brand-row"><span class="dot" style="background:var(--pink)"></span><h3 class="lat">CLAUDE 系列</h3></div>
+    <div class="tier-grid">
+      <div class="tier-card t-flagship">
+        <span class="tier-badge">旗艦</span>
+        <div class="tier-name">Opus 5</div>
+        <div class="tier-id lat">claude-opus-5</div>
+        <p class="tier-desc">最強泛用旗艦，適合複雜推理、長時間跑的 agentic 工作（例如今天示範的整個網站開發）。</p>
+        <div class="tier-price lat">$5.00 / $25.00（每百萬 tokens，輸入/輸出）</div>
+      </div>
+      <div class="tier-card t-balance">
+        <span class="tier-badge">主力</span>
+        <div class="tier-name">Sonnet 5</div>
+        <div class="tier-id lat">claude-sonnet-5</div>
+        <p class="tier-desc">新一代主力模型，性價比最好。大量日常工作、正式上線的產品，多半用這個。</p>
+        <div class="tier-price lat">$2.00 / $10.00（每百萬 tokens，輸入/輸出）</div>
+      </div>
+      <div class="tier-card t-old">
+        <span class="tier-badge">舊代</span>
+        <div class="tier-name">Sonnet 4.6</div>
+        <div class="tier-id lat">claude-sonnet-4-6</div>
+        <p class="tier-desc">上一代模型，已被 Sonnet 5 取代。除非舊系統相容需求，新專案不建議選它。</p>
+        <div class="tier-price lat">$3.00 / $15.00 — 比 Sonnet 5 貴，還比較舊</div>
+      </div>
+    </div>
+    <div class="callout" style="margin-top:18px">
+      <span class="ic">💡</span>
+      <p><strong>容易誤會的地方：</strong>「4.6」聽起來比「5」新，但其實 Sonnet 4.6 是<strong>更早的世代</strong>，而且比 Sonnet 5 貴。新專案直接選 Sonnet 5 就對了，不用被數字騙。</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="sec-eyebrow">直接對照</div>
+      <h2 class="sec-title">同樣的難度，兩邊怎麼對應</h2>
+    </div>
+    <table class="pair-table">
+      <thead><tr><th>工作難度</th><th>Codex 選</th><th>Claude 選</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>複雜推理、長流程、架構問題</td>
+          <td><span class="pair-pill" style="background:var(--mint-soft);color:var(--mint)">Sol</span></td>
+          <td><span class="pair-pill" style="background:var(--mint-soft);color:var(--mint)">Opus 5</span></td>
+        </tr>
+        <tr>
+          <td>一般日常工作，抓平衡</td>
+          <td><span class="pair-pill" style="background:var(--blue-soft);color:var(--blue)">Terra</span></td>
+          <td><span class="pair-pill" style="background:var(--blue-soft);color:var(--blue)">Sonnet 5</span></td>
+        </tr>
+        <tr>
+          <td>大量重複、簡單、想省成本</td>
+          <td><span class="pair-pill" style="background:var(--gold-soft);color:var(--gold)">Luna</span></td>
+          <td><span class="pair-pill" style="background:var(--gold-soft);color:var(--gold)">Sonnet 5（或再降階）</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="sec-eyebrow">給學生的簡單原則</div>
+      <h2 class="sec-title">不知道怎麼選，看這個</h2>
+    </div>
+    <div class="rot">
+      <div class="rot-row">
+        <div class="rot-q">不確定要選哪個</div>
+        <div class="rot-arrow">→</div>
+        <div class="rot-a" style="background:var(--blue)">先選中間檔（Terra / Sonnet 5）</div>
+      </div>
+      <div class="rot-row">
+        <div class="rot-q">中間檔做出來的東西不對、卡關卡很久</div>
+        <div class="rot-arrow">→</div>
+        <div class="rot-a" style="background:var(--pink)">升級到旗艦（Sol / Opus 5）</div>
+      </div>
+      <div class="rot-row">
+        <div class="rot-q">同一件事要重複做很多次（例如批次改格式）</div>
+        <div class="rot-arrow">→</div>
+        <div class="rot-a" style="background:var(--gold)">降階省成本（Luna）</div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">走一日球迷 · 美業 AI 網頁實作課 · 文化大學分享</footer>
+</div>
+
 </main><footer><div class="wrap">美髮 AI 實驗室 · 用自己的選擇，做出自己的網頁。</div></footer>
   </script>
   <script>
