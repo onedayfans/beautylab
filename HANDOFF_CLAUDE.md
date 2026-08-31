@@ -10,8 +10,8 @@
 |---|---|
 | 網址 | https://beautylab.onedayfans.fans |
 | Cloudflare Worker 名稱 | `beautylab-onedayfans` |
-| Worker Account ID | `61c661350aff0afb4c23454d192ac370` |
-| Zone ID | `db4554f949f73b848ed4add169635529` |
+| Worker Account ID | `YOUR_ACCOUNT_ID` |
+| Zone ID | `YOUR_ZONE_ID` |
 | 原始 HTML 檔 | `/Users/vkmacstudio/.codex/visualizations/2026/08/05/019fd12f-6fdb-7380-9a99-6771ed593b39/beautylab.html` |
 | 部署腳本資料夾 | `/private/tmp/claude-501/-Users-vkmacstudio/20302ef5-7526-4f3a-87c6-74193f860c69/scratchpad/beautylab-deploy/` |
 
@@ -62,11 +62,11 @@ python3 build_worker.py
   "name": "beautylab-onedayfans",
   "main": "index.js",
   "compatibility_date": "2026-08-01",
-  "account_id": "61c661350aff0afb4c23454d192ac370",
+  "account_id": "YOUR_ACCOUNT_ID",
   "routes": [
     {
       "pattern": "beautylab.onedayfans.fans/*",
-      "zone_id": "db4554f949f73b848ed4add169635529"
+      "zone_id": "YOUR_ZONE_ID"
     }
   ]
 }

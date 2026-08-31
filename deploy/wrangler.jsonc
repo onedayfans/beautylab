@@ -2,11 +2,11 @@
   "name": "beautylab-onedayfans",
   "main": "index.js",
   "compatibility_date": "2026-08-01",
-  "account_id": "61c661350aff0afb4c23454d192ac370",
+  "account_id": "YOUR_ACCOUNT_ID",
   "routes": [
     {
       "pattern": "beautylab.onedayfans.fans/*",
-      "zone_id": "db4554f949f73b848ed4add169635529"
+      "zone_id": "YOUR_ZONE_ID"
     }
   ]
 }
